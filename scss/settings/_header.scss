@@ -18,6 +18,12 @@ header {
       img {
         width: 100%;
       }
+
+      &:hover {
+        color: rgb(100, 100, 100);
+        transition: 0.1s ease;
+        transform: scale(1.1);
+      }
     }
   }
 
@@ -48,6 +54,15 @@ header {
           padding: 12px 15px 15px 15px;
           background-color: $dark;
           border-radius: 20px;
+
+          &:hover {
+            color: $dark;
+            background-color: $soft;
+            // border: 1px solid $dark;
+            outline: solid $dark;
+            transition: 0.3s;
+            transform: scale(1);
+          }
         }
       }
     }

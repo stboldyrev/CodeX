@@ -268,6 +268,11 @@ header ul a {
 header ul a img {
   width: 100%;
 }
+header ul a:hover {
+  color: rgb(100, 100, 100);
+  transition: 0.1s ease;
+  transform: scale(1.1);
+}
 header .header-left ul li {
   margin-right: 47px;
 }
@@ -290,6 +295,13 @@ header .header-left:first-of-type {
   padding: 12px 15px 15px 15px;
   background-color: rgb(47, 47, 47);
   border-radius: 20px;
+}
+.header-right ul li:last-of-type a:hover {
+  color: rgb(47, 47, 47);
+  background-color: rgb(255, 255, 255);
+  outline: solid rgb(47, 47, 47);
+  transition: 0.3s;
+  transform: scale(1);
 }
 
 main {
