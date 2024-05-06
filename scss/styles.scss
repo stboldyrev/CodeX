@@ -1,0 +1,30 @@
+@import "settings/variables";
+@import "settings/helpers";
+@import "settings/normalize";
+@import "settings/reset";
+@import "settings/mixins";
+@import "settings/include-media";
+@import "settings/fonts";
+@import "settings/header";
+
+body {
+  font-family: "Outfit", sans-serif;
+  background: $soft;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  display: inline-block;
+  img {
+    width: 100%;
+  }
+}
