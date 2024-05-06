@@ -6,10 +6,13 @@
 @import "settings/include-media";
 @import "settings/fonts";
 @import "settings/header";
+@import "settings/main";
 
 body {
   font-family: "Outfit", sans-serif;
   background: $soft;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 .container {
   max-width: 1200px;

@@ -292,9 +292,108 @@ header .header-left:first-of-type {
   border-radius: 20px;
 }
 
+main {
+  margin-top: 70px;
+}
+
+.digital-experience {
+  margin-bottom: 325px;
+}
+.digital-experience h4 {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.48px;
+  color: rgb(130, 203, 172);
+}
+.digital-experience h1 {
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0.48px;
+  color: rgb(47, 47, 47);
+  margin-bottom: 25px;
+}
+.digital-experience p {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.48px;
+}
+.digital-experience .digital-exp-left {
+  margin-top: 40px;
+  max-width: 538px;
+}
+.digital-experience .digital-exp-right {
+  max-width: 600px;
+  position: relative;
+}
+.digital-experience .digital-exp-right .mia-section {
+  position: relative;
+}
+.digital-experience .digital-exp-right .lee-section {
+  position: absolute;
+  right: 255px;
+  width: 325px;
+  height: 325px;
+  background-image: url("../images/lee-nft.svg");
+}
+.digital-experience .digital-exp-right .mia-section {
+  display: flex;
+  flex-direction: column-reverse;
+  top: 100px;
+  width: 410px;
+  height: 410px;
+  background-image: url("../images/mia-nft.svg");
+}
+.digital-experience .digital-exp-right .lee-nft-btn, .digital-experience .digital-exp-right .mia-nft-btn {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(47, 47, 47);
+  border-radius: 30px;
+  box-shadow: 0px -4px 19px 0px rgba(0, 0, 0, 0.03);
+  background: rgba(255, 255, 255, 0.85);
+  padding: 4px 15px 4px 5px;
+  max-width: 105px;
+  margin-top: 15px;
+  margin-left: -40px;
+}
+.digital-experience .digital-exp-right .lee-nft-btn h5, .digital-experience .digital-exp-right .mia-nft-btn h5 {
+  padding-left: 5px;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 11px;
+  letter-spacing: 0.48px;
+}
+.digital-experience .digital-exp-right .lee-nft-btn h5 span, .digital-experience .digital-exp-right .mia-nft-btn h5 span {
+  font-size: 9px;
+}
+.digital-experience .digital-exp-right .lee-nft-btn::before, .digital-experience .digital-exp-right .mia-nft-btn::before {
+  content: url("../../images/lee-photo.svg");
+  background-repeat: no-repeat;
+}
+.digital-experience .digital-exp-right .lee-nft-btn:hover, .digital-experience .digital-exp-right .mia-nft-btn:hover {
+  background-color: rgb(130, 203, 172);
+  transition: 0.4s ease;
+}
+.digital-experience .digital-exp-right .mia-nft-btn {
+  max-width: 137px;
+  padding: 4px 9px;
+  margin-top: 0;
+  margin-bottom: 22px;
+  margin-left: -84px;
+}
+.digital-experience .digital-exp-right .mia-nft-btn::before {
+  content: url("../../images/mia-photo.svg");
+  background-repeat: no-repeat;
+}
+
 body {
   font-family: "Outfit", sans-serif;
   background: rgb(255, 255, 255);
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .container {
