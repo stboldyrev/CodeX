@@ -1,0 +1,49 @@
+.hey-there {
+  margin-top: 128px;
+  margin-bottom: 300px;
+
+  .hey-there-header {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    h2 {
+      font-size: 64px;
+      font-weight: 400;
+      line-height: 64px;
+      letter-spacing: 0.48px;
+      color: $dark;
+      margin-bottom: 25px;
+    }
+    p {
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 26px;
+      letter-spacing: 0.48px;
+      color: $dark;
+      margin-bottom: 70px;
+    }
+  }
+
+  .choose-person {
+    margin-bottom: 64px;
+    a {
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 22px;
+      letter-spacing: 0.48px;
+      color: $dark;
+      text-decoration: none;
+      margin-right: 8px;
+      box-sizing: border-box;
+      border: 1px solid rgb(47, 47, 47);
+      border-radius: 30px;
+      background: $soft;
+      padding: 12px 65px 13px 65px;
+
+      &:first-of-type {
+        color: $soft;
+        background-color: $dark;
+      }
+    }
+  }
+}

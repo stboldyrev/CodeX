@@ -247,49 +247,61 @@ table {
   border-spacing: 0;
 }
 
-header {
-  margin: 28px;
-  border-radius: 30px;
-  box-shadow: 0px -4px 19px 0px rgba(0, 0, 0, 0.03);
-}
-header ul {
+.scroll-nft {
   display: flex;
-  align-items: center;
 }
-header ul a {
-  display: inline-block;
-  text-decoration: none;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 16px;
-  letter-spacing: 0.48px;
-  color: rgb(34, 34, 34);
+.scroll-nft .nft {
+  min-width: 152px;
 }
-header ul a img {
+.scroll-nft .nft img {
   width: 100%;
 }
-header .header-left ul li {
-  margin-right: 47px;
-}
-header .header-left:first-of-type {
-  padding: 18.5px 0;
-}
 
-.header-right ul li {
-  margin-left: 20px;
+.hey-there {
+  margin-top: 128px;
+  margin-bottom: 300px;
 }
-.header-right ul li:last-of-type {
-  margin-left: 47px;
+.hey-there .hey-there-header {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
 }
-.header-right ul li:last-of-type a {
-  font-size: 13px;
+.hey-there .hey-there-header h2 {
+  font-size: 64px;
   font-weight: 400;
-  line-height: 14px;
+  line-height: 64px;
   letter-spacing: 0.48px;
+  color: rgb(47, 47, 47);
+  margin-bottom: 25px;
+}
+.hey-there .hey-there-header p {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.48px;
+  color: rgb(47, 47, 47);
+  margin-bottom: 70px;
+}
+.hey-there .choose-person {
+  margin-bottom: 64px;
+}
+.hey-there .choose-person a {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.48px;
+  color: rgb(47, 47, 47);
+  text-decoration: none;
+  margin-right: 8px;
+  box-sizing: border-box;
+  border: 1px solid rgb(47, 47, 47);
+  border-radius: 30px;
+  background: rgb(255, 255, 255);
+  padding: 12px 65px 13px 65px;
+}
+.hey-there .choose-person a:first-of-type {
   color: rgb(255, 255, 255);
-  padding: 12px 15px 15px 15px;
   background-color: rgb(47, 47, 47);
-  border-radius: 20px;
 }
 
 body {
