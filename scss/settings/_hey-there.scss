@@ -1,6 +1,13 @@
 .hey-there {
   margin-top: 128px;
-  margin-bottom: 300px;
+  margin-bottom: 84px;
+
+  .container {
+    max-width: 1104px;
+    &:last-of-type {
+      max-width: 1200px;
+    }
+  }
 
   .hey-there-header {
     max-width: 600px;
@@ -35,14 +42,128 @@
       text-decoration: none;
       margin-right: 8px;
       box-sizing: border-box;
-      border: 1px solid rgb(47, 47, 47);
+      border: 1px solid $dark;
       border-radius: 30px;
       background: $soft;
       padding: 12px 65px 13px 65px;
 
+      &:hover {
+        color: $soft;
+        background-color: $dark;
+        transition: 0.4s ease;
+      }
+
       &:first-of-type {
         color: $soft;
         background-color: $dark;
+        &:hover {
+          color: $dark;
+          background-color: $soft;
+          transition: 0.4s ease;
+          outline: 1px solid $dark;
+        }
+      }
+    }
+  }
+
+  .digital-artist {
+    display: flex;
+    margin-bottom: 146px;
+
+    .digital-artist-img {
+      max-width: 559px;
+      img {
+        width: 100%;
+      }
+    }
+    .digital-artist-description {
+      max-width: 477px;
+      padding-top: 47px;
+      h4 {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0.48px;
+        color: rgb(255, 127, 150);
+        margin-bottom: 14px;
+      }
+
+      h3 {
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: 0.48px;
+        color: $dark;
+        margin-bottom: 21px;
+      }
+      p {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0.48px;
+        color: $dark;
+      }
+    }
+  }
+
+  .our-work {
+    display: flex;
+    .our-work-img {
+      max-width: 585px;
+      margin-right: 63px;
+      img {
+        width: 100%;
+      }
+    }
+    .our-work-description {
+      max-width: 552px;
+      margin-top: 57px;
+      display: flex;
+      flex-direction: column;
+
+      h4 {
+        font-size: 35px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: 0.48px;
+        color: $dark;
+        margin-bottom: 7px;
+      }
+      h3 {
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 48px;
+        letter-spacing: 0.48px;
+        color: $dark;
+        margin-bottom: 38px;
+      }
+      p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0.48px;
+        color: $dark;
+        margin-bottom: 32px;
+      }
+
+      a {
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: 0.48px;
+        color: $soft;
+        background-color: $dark;
+        text-decoration: none;
+        padding: 13px 31px;
+        max-width: 160px;
+        margin-left: auto;
+
+        &:hover {
+          color: $dark;
+          background-color: $soft;
+          transition: 0.3s ease;
+          outline: 1px solid $dark;
+        }
       }
     }
   }
