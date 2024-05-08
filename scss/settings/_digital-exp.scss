@@ -81,7 +81,7 @@
       }
 
       &::before {
-        content: url("../../images/lee-photo.svg");
+        content: url("../images/lee-photo.svg");
         background-repeat: no-repeat;
       }
 
@@ -98,7 +98,7 @@
       margin-bottom: 22px;
       margin-left: -84px;
       &::before {
-        content: url("../../images/mia-photo.svg");
+        content: url("../images/mia-photo.svg");
         background-repeat: no-repeat;
       }
     }

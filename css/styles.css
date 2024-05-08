@@ -547,7 +547,7 @@ header .header-left:first-of-type {
   font-size: 9px;
 }
 .digital-experience .digital-exp-right .lee-nft-btn::before, .digital-experience .digital-exp-right .mia-nft-btn::before {
-  content: url("../../images/lee-photo.svg");
+  content: url("../images/lee-photo.svg");
   background-repeat: no-repeat;
 }
 .digital-experience .digital-exp-right .lee-nft-btn:hover, .digital-experience .digital-exp-right .mia-nft-btn:hover {
@@ -562,7 +562,7 @@ header .header-left:first-of-type {
   margin-left: -84px;
 }
 .digital-experience .digital-exp-right .mia-nft-btn::before {
-  content: url("../../images/mia-photo.svg");
+  content: url("../images/mia-photo.svg");
   background-repeat: no-repeat;
 }
 
