@@ -1,10 +1,10 @@
 @mixin size($width, $height: $width) {
-    height: $height;
-    width: $width;
+  height: $height;
+  width: $width;
 }
 
 @mixin size-circle($width, $height: $width) {
-    height: $height;
-    width: $width;
-    border-radius: 50%;
+  height: $height;
+  width: $width;
+  border-radius: 50%;
 }
