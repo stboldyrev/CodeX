@@ -5,12 +5,16 @@
 @import "settings/mixins";
 @import "settings/include-media";
 @import "settings/fonts";
+@import "settings/header";
 @import "settings/scroll-nft";
 @import "settings/hey-there";
+@import "settings/_digital-exp";
 
 body {
   font-family: "Outfit", sans-serif;
   background: $soft;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 .container {
   max-width: 1200px;
@@ -28,4 +32,8 @@ a {
   img {
     width: 100%;
   }
+}
+
+main {
+  margin-top: 70px;
 }
