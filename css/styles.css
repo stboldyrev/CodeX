@@ -247,6 +247,63 @@ table {
   border-spacing: 0;
 }
 
+header {
+  margin: 28px;
+  border-radius: 30px;
+  box-shadow: 0px -4px 19px 0px rgba(0, 0, 0, 0.03);
+}
+header ul {
+  display: flex;
+  align-items: center;
+}
+header ul a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.48px;
+  color: rgb(34, 34, 34);
+}
+header ul a img {
+  width: 100%;
+}
+header ul a:hover {
+  color: rgb(100, 100, 100);
+  transition: 0.1s ease;
+  transform: scale(1.1);
+}
+header .header-left ul li {
+  margin-right: 47px;
+}
+header .header-left:first-of-type {
+  padding: 18.5px 0;
+}
+
+.header-right ul li {
+  margin-left: 20px;
+}
+.header-right ul li:last-of-type {
+  margin-left: 47px;
+}
+.header-right ul li:last-of-type a {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.48px;
+  color: rgb(255, 255, 255);
+  padding: 12px 15px 15px 15px;
+  background-color: rgb(47, 47, 47);
+  border-radius: 20px;
+}
+.header-right ul li:last-of-type a:hover {
+  color: rgb(47, 47, 47);
+  background-color: rgb(255, 255, 255);
+  outline: solid rgb(47, 47, 47);
+  transition: 0.3s;
+  transform: scale(1);
+}
+
 .scroll-nft {
   display: flex;
 }
@@ -357,18 +414,8 @@ table {
   letter-spacing: 0.48px;
   color: rgb(47, 47, 47);
 }
-
 .hey-there .our-work {
   display: flex;
-}
-header ul a:hover {
-  color: rgb(100, 100, 100);
-  transition: 0.1s ease;
-  transform: scale(1.1);
-}
-header .header-left ul li {
-  margin-right: 47px;
-
 }
 .hey-there .our-work .our-work-img {
   max-width: 585px;
@@ -424,17 +471,6 @@ header .header-left ul li {
   background-color: rgb(255, 255, 255);
   transition: 0.3s ease;
   outline: 1px solid rgb(47, 47, 47);
-}
-.header-right ul li:last-of-type a:hover {
-  color: rgb(47, 47, 47);
-  background-color: rgb(255, 255, 255);
-  outline: solid rgb(47, 47, 47);
-  transition: 0.3s;
-  transform: scale(1);
-}
-
-main {
-  margin-top: 70px;
 }
 
 .digital-experience {
@@ -553,4 +589,8 @@ a {
 }
 a img {
   width: 100%;
+}
+
+main {
+  margin-top: 70px;
 }/*# sourceMappingURL=styles.css.map */
