@@ -1,0 +1,50 @@
+.motion-graphic {
+  margin-bottom: 204px;
+  .motion-graphic-description {
+    margin-top: 64px;
+    max-width: 585px;
+    padding-left: 63px;
+    padding-right: 90px;
+    .motion-item {
+      margin-bottom: 32px;
+      &:last-child {
+        margin-bottom: 0px;
+      }
+      h6 {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0.48px;
+        color: $soft;
+        padding: 9px 17px;
+        border-radius: 30px;
+        background: rgb(130, 203, 172);
+        margin-bottom: 5px;
+        max-width: 58px;
+        text-align: center;
+      }
+
+      h4 {
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0.48px;
+        color: $dark;
+        margin-bottom: 13px;
+      }
+      p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0.48px;
+        color: $dark;
+      }
+    }
+  }
+  .motion-graphic-img {
+    max-width: 559px;
+    img {
+      width: 100%;
+    }
+  }
+}
