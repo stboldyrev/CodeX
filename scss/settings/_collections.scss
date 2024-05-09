@@ -1,0 +1,29 @@
+.collections {
+  margin-bottom: 95px;
+  h2 {
+    font-size: 63px;
+    line-height: 64px;
+    color: $dark;
+    text-align: center;
+    margin-bottom: 73px;
+  }
+  .collections-items {
+    margin-bottom: 64px;
+    .collections-item {
+      padding-bottom: 37px;
+      img {
+        padding-bottom: 30px;
+      }
+      h6 {
+        a {
+          font-size: 26px;
+          line-height: 26px;
+          color: $dark;
+          padding-left: 50px;
+
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
