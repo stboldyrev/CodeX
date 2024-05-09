@@ -763,6 +763,29 @@ header .header-left:first-of-type {
   transition: 0.4s ease;
 }
 
+.faq {
+  margin-bottom: 55px;
+}
+.faq h3 {
+  font-size: 64px;
+  line-height: 64px;
+  color: rgb(47, 47, 47);
+  margin-bottom: 73px;
+}
+.faq .faq-items {
+  padding: 0 26px;
+}
+.faq .faq-items .faq-item {
+  display: flex;
+  justify-content: space-between;
+}
+.faq .faq-items .faq-item p {
+  font-size: 22px;
+  line-height: 24px;
+  color: rgb(47, 47, 47);
+  margin-bottom: 77px;
+}
+
 body {
   font-family: "Outfit", sans-serif;
   background: rgb(255, 255, 255);
