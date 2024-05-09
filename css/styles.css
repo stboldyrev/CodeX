@@ -710,7 +710,10 @@ header .header-left:first-of-type {
 .top-nft .top-nft-items .top-nft-item {
   margin-bottom: 40px;
 }
-.top-nft .top-nft-items .top-nft-item .top-nft-image img {
+.top-nft .top-nft-items .top-nft-item .top-nft-image a {
+  cursor: pointer;
+}
+.top-nft .top-nft-items .top-nft-item .top-nft-image a img {
   width: 100%;
 }
 .top-nft .top-nft-items .top-nft-item .top-nft-description {
@@ -740,6 +743,7 @@ header .header-left:first-of-type {
   padding: 10px;
   background: rgb(246, 246, 246);
   max-height: 38px;
+  cursor: pointer;
 }
 .top-nft .top-nft-items .top-nft-item .top-nft-description .top-nft-btn a img {
   width: 100%;

@@ -16,8 +16,11 @@
     .top-nft-item {
       margin-bottom: 40px;
       .top-nft-image {
-        img {
-          width: 100%;
+        a {
+          cursor: pointer;
+          img {
+            width: 100%;
+          }
         }
       }
       .top-nft-description {
@@ -47,6 +50,7 @@
             padding: 10px;
             background: rgb(246, 246, 246);
             max-height: 38px;
+            cursor: pointer;
             img {
               width: 100%;
             }
