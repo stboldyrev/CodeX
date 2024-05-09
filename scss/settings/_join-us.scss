@@ -32,6 +32,7 @@
       &:hover {
         background-color: $soft;
         color: $dark;
+        outline: 1px solid $dark;
         transition: 0.4s ease;
       }
     }

@@ -1,0 +1,114 @@
+footer {
+  padding-top: 87px;
+  .footer-1 {
+    margin-bottom: 125px;
+    ul {
+      h6 {
+        font-size: 20px;
+        line-height: 20px;
+        color: $dark;
+        padding-bottom: 17px;
+      }
+      a {
+        font-size: 15px;
+        line-height: 16px;
+        color: $dark;
+        padding-bottom: 8px;
+        &:hover {
+          color: rgb(100, 100, 100);
+          transition: 0.4s ease;
+          transform: scale(1.1);
+        }
+      }
+      &:first-of-type {
+        a {
+          font-size: 20px;
+          line-height: 20px;
+          color: $dark;
+          padding-bottom: 20px;
+          &:hover {
+            transform: scale(1);
+          }
+        }
+      }
+      .footer-logo {
+        margin-bottom: 25px;
+        min-width: 138px;
+      }
+
+      .social-media {
+        a {
+          padding-right: 20px;
+          padding-bottom: 0;
+        }
+      }
+    }
+    .stay-in-the-loop {
+      max-width: 431px;
+      h4 {
+        font-size: 35px;
+        line-height: 28.8px;
+        color: $dark;
+        padding-bottom: 16px;
+      }
+      p {
+        font-size: 18px;
+        line-height: 26px;
+        color: $dark;
+        padding-bottom: 16px;
+      }
+
+      .stay-loop-form {
+        display: flex;
+        width: 100%;
+        form {
+          min-width: 327px;
+          display: flex;
+          justify-content: space-between;
+          min-height: 40px;
+        }
+        label {
+          display: none;
+        }
+        input {
+          border-radius: 20px;
+          background: rgb(246, 246, 246);
+          border: none;
+          outline: none;
+          width: 100%;
+          padding: 11px 27px;
+          margin-right: 8px;
+        }
+        button {
+          font-size: 14px;
+          line-height: 16px;
+          color: $soft;
+          padding: 11px 14px;
+          border: none;
+          border-radius: 20px;
+          background: $dark;
+          &:hover {
+            background-color: rgb(27, 27, 27);
+            transition: 0.3s ease;
+          }
+        }
+      }
+    }
+  }
+  .footer-2 {
+    margin-bottom: 30px;
+    h6 {
+      font-size: 14px;
+      line-height: 16px;
+      color: $dark;
+    }
+    p {
+      font-size: 15px;
+      line-height: 16px;
+      color: $dark;
+      span {
+        color: rgb(255, 127, 150);
+      }
+    }
+  }
+}

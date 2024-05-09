@@ -256,7 +256,7 @@ header ul {
   display: flex;
   align-items: center;
 }
-header ul a {
+header ul li a {
   display: inline-block;
   text-decoration: none;
   font-size: 15px;
@@ -265,13 +265,16 @@ header ul a {
   letter-spacing: 0.48px;
   color: rgb(34, 34, 34);
 }
-header ul a img {
+header ul li a img {
   width: 100%;
 }
-header ul a:hover {
+header ul li a:hover {
   color: rgb(100, 100, 100);
   transition: 0.1s ease;
   transform: scale(1.1);
+}
+header ul li:first-child a:hover {
+  transform: scale(1);
 }
 header .header-left ul li {
   margin-right: 47px;
@@ -651,6 +654,7 @@ header .header-left:first-of-type {
 .join-us .join-us-description a:hover {
   background-color: rgb(255, 255, 255);
   color: rgb(47, 47, 47);
+  outline: 1px solid rgb(47, 47, 47);
   transition: 0.4s ease;
 }
 .join-us .join-us-image {
@@ -687,7 +691,11 @@ header .header-left:first-of-type {
   line-height: 26px;
   color: rgb(47, 47, 47);
   padding-left: 50px;
-  text-decoration: none;
+}
+.collections .collections-items .collections-item h6 a:hover {
+  color: rgb(100, 100, 100);
+  transition: 0.4s ease;
+  transform: scale(1.1);
 }
 
 .top-nft {
@@ -763,6 +771,135 @@ header .header-left:first-of-type {
   transition: 0.4s ease;
 }
 
+.faq {
+  margin-bottom: 55px;
+}
+.faq h3 {
+  font-size: 64px;
+  line-height: 64px;
+  color: rgb(47, 47, 47);
+  margin-bottom: 73px;
+}
+.faq .faq-items {
+  padding: 0 26px;
+}
+.faq .faq-items .d-flex {
+  align-items: normal;
+}
+.faq .faq-items .faq-item p {
+  font-size: 22px;
+  line-height: 24px;
+  color: rgb(47, 47, 47);
+  margin-bottom: 77px;
+}
+
+footer {
+  padding-top: 87px;
+}
+footer .footer-1 {
+  margin-bottom: 125px;
+}
+footer .footer-1 ul h6 {
+  font-size: 20px;
+  line-height: 20px;
+  color: rgb(47, 47, 47);
+  padding-bottom: 17px;
+}
+footer .footer-1 ul a {
+  font-size: 15px;
+  line-height: 16px;
+  color: rgb(47, 47, 47);
+  padding-bottom: 8px;
+}
+footer .footer-1 ul a:hover {
+  color: rgb(100, 100, 100);
+  transition: 0.4s ease;
+  transform: scale(1.1);
+}
+footer .footer-1 ul:first-of-type a {
+  font-size: 20px;
+  line-height: 20px;
+  color: rgb(47, 47, 47);
+  padding-bottom: 20px;
+}
+footer .footer-1 ul:first-of-type a:hover {
+  transform: scale(1);
+}
+footer .footer-1 ul .footer-logo {
+  margin-bottom: 25px;
+  min-width: 138px;
+}
+footer .footer-1 ul .social-media a {
+  padding-right: 20px;
+  padding-bottom: 0;
+}
+footer .footer-1 .stay-in-the-loop {
+  max-width: 431px;
+}
+footer .footer-1 .stay-in-the-loop h4 {
+  font-size: 35px;
+  line-height: 28.8px;
+  color: rgb(47, 47, 47);
+  padding-bottom: 16px;
+}
+footer .footer-1 .stay-in-the-loop p {
+  font-size: 18px;
+  line-height: 26px;
+  color: rgb(47, 47, 47);
+  padding-bottom: 16px;
+}
+footer .footer-1 .stay-in-the-loop .stay-loop-form {
+  display: flex;
+  width: 100%;
+}
+footer .footer-1 .stay-in-the-loop .stay-loop-form form {
+  min-width: 327px;
+  display: flex;
+  justify-content: space-between;
+  min-height: 40px;
+}
+footer .footer-1 .stay-in-the-loop .stay-loop-form label {
+  display: none;
+}
+footer .footer-1 .stay-in-the-loop .stay-loop-form input {
+  border-radius: 20px;
+  background: rgb(246, 246, 246);
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 11px 27px;
+  margin-right: 8px;
+}
+footer .footer-1 .stay-in-the-loop .stay-loop-form button {
+  font-size: 14px;
+  line-height: 16px;
+  color: rgb(255, 255, 255);
+  padding: 11px 14px;
+  border: none;
+  border-radius: 20px;
+  background: rgb(47, 47, 47);
+}
+footer .footer-1 .stay-in-the-loop .stay-loop-form button:hover {
+  background-color: rgb(27, 27, 27);
+  transition: 0.3s ease;
+}
+footer .footer-2 {
+  margin-bottom: 30px;
+}
+footer .footer-2 h6 {
+  font-size: 14px;
+  line-height: 16px;
+  color: rgb(47, 47, 47);
+}
+footer .footer-2 p {
+  font-size: 15px;
+  line-height: 16px;
+  color: rgb(47, 47, 47);
+}
+footer .footer-2 p span {
+  color: rgb(255, 127, 150);
+}
+
 body {
   font-family: "Outfit", sans-serif;
   background: rgb(255, 255, 255);
@@ -783,6 +920,7 @@ body {
 
 a {
   display: inline-block;
+  text-decoration: none;
 }
 a img {
   width: 100%;

@@ -1,0 +1,23 @@
+.faq {
+  margin-bottom: 55px;
+  h3 {
+    font-size: 64px;
+    line-height: 64px;
+    color: $dark;
+    margin-bottom: 73px;
+  }
+  .faq-items {
+    padding: 0 26px;
+    .d-flex {
+      align-items: normal;
+    }
+    .faq-item {
+      p {
+        font-size: 22px;
+        line-height: 24px;
+        color: $dark;
+        margin-bottom: 77px;
+      }
+    }
+  }
+}
