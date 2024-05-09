@@ -256,7 +256,7 @@ header ul {
   display: flex;
   align-items: center;
 }
-header ul a {
+header ul li a {
   display: inline-block;
   text-decoration: none;
   font-size: 15px;
@@ -265,13 +265,16 @@ header ul a {
   letter-spacing: 0.48px;
   color: rgb(34, 34, 34);
 }
-header ul a img {
+header ul li a img {
   width: 100%;
 }
-header ul a:hover {
+header ul li a:hover {
   color: rgb(100, 100, 100);
   transition: 0.1s ease;
   transform: scale(1.1);
+}
+header ul li:first-child a:hover {
+  transform: scale(1);
 }
 header .header-left ul li {
   margin-right: 47px;
