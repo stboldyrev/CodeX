@@ -8,9 +8,10 @@
   }
   .faq-items {
     padding: 0 26px;
+    .d-flex {
+      align-items: normal;
+    }
     .faq-item {
-      display: flex;
-      justify-content: space-between;
       p {
         font-size: 22px;
         line-height: 24px;
