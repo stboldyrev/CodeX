@@ -1,4 +1,5 @@
 .collections {
+  margin-bottom: 95px;
   h2 {
     font-size: 63px;
     line-height: 64px;
@@ -22,23 +23,6 @@
 
           text-decoration: none;
         }
-      }
-    }
-  }
-  .collections-btn {
-    text-align: center;
-    margin-bottom: 95px;
-    a {
-      font-size: 14px;
-      line-height: 16px;
-      color: $soft;
-      background-color: $dark;
-      text-decoration: none;
-      padding: 13px 31px;
-      &:hover {
-        background-color: $soft;
-        color: $dark;
-        transition: 0.4s ease;
       }
     }
   }

@@ -663,6 +663,9 @@ header .header-left:first-of-type {
   width: 100%;
 }
 
+.collections {
+  margin-bottom: 95px;
+}
 .collections h2 {
   font-size: 63px;
   line-height: 64px;
@@ -686,21 +689,73 @@ header .header-left:first-of-type {
   padding-left: 50px;
   text-decoration: none;
 }
-.collections .collections-btn {
-  text-align: center;
-  margin-bottom: 95px;
+
+.top-nft {
+  margin-bottom: 55px;
 }
-.collections .collections-btn a {
-  font-size: 14px;
-  line-height: 16px;
-  color: rgb(255, 255, 255);
-  background-color: rgb(47, 47, 47);
-  text-decoration: none;
-  padding: 13px 31px;
+.top-nft .container {
+  padding: 0 64px;
 }
-.collections .collections-btn a:hover {
-  background-color: rgb(255, 255, 255);
+.top-nft h2 {
+  font-size: 63px;
+  line-height: 64px;
   color: rgb(47, 47, 47);
+  margin-bottom: 25px;
+  text-align: center;
+}
+.top-nft .top-nft-items {
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+.top-nft .top-nft-items .top-nft-item {
+  margin-bottom: 40px;
+}
+.top-nft .top-nft-items .top-nft-item .top-nft-image img {
+  width: 100%;
+}
+.top-nft .top-nft-items .top-nft-item .top-nft-description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.top-nft .top-nft-items .top-nft-item .top-nft-description h6 a {
+  font-size: 16px;
+  line-height: 18px;
+  color: rgb(47, 47, 47);
+  text-decoration: none;
+}
+.top-nft .top-nft-items .top-nft-item .top-nft-description h6 a span {
+  font-size: 17px;
+  line-height: 18px;
+  color: rgb(47, 47, 47);
+  font-weight: 700;
+}
+.top-nft .top-nft-items .top-nft-item .top-nft-description .top-nft-btn {
+  display: flex;
+}
+.top-nft .top-nft-items .top-nft-item .top-nft-description .top-nft-btn a {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background: rgb(246, 246, 246);
+  max-height: 38px;
+}
+.top-nft .top-nft-items .top-nft-item .top-nft-description .top-nft-btn a img {
+  width: 100%;
+}
+.top-nft .top-nft-items .top-nft-item .top-nft-description .top-nft-btn a:hover {
+  background-color: rgb(220, 220, 220);
+  transition: 0.4s ease;
+}
+.top-nft .top-nft-items .top-nft-item .top-nft-description .top-nft-btn a:last-child {
+  padding: 13px;
+  border-radius: 30px;
+  background: rgb(255, 127, 150);
+  margin-left: 8px;
+}
+.top-nft .top-nft-items .top-nft-item .top-nft-description .top-nft-btn a:last-child:hover {
+  background-color: rgb(255, 77, 120);
   transition: 0.4s ease;
 }
 
@@ -731,4 +786,21 @@ a img {
 
 main {
   margin-top: 70px;
+}
+
+.view-all-btn {
+  text-align: center;
+}
+.view-all-btn a {
+  font-size: 14px;
+  line-height: 16px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(47, 47, 47);
+  text-decoration: none;
+  padding: 13px 31px;
+}
+.view-all-btn a:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(47, 47, 47);
+  transition: 0.4s ease;
 }/*# sourceMappingURL=styles.css.map */

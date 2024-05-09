@@ -41,3 +41,20 @@ a {
 main {
   margin-top: 70px;
 }
+
+.view-all-btn {
+  text-align: center;
+  a {
+    font-size: 14px;
+    line-height: 16px;
+    color: $soft;
+    background-color: $dark;
+    text-decoration: none;
+    padding: 13px 31px;
+    &:hover {
+      background-color: $soft;
+      color: $dark;
+      transition: 0.4s ease;
+    }
+  }
+}
