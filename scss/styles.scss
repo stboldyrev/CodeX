@@ -55,6 +55,7 @@ main {
       background-color: $soft;
       color: $dark;
       transition: 0.4s ease;
+      outline: 1px solid $dark;
     }
   }
 }

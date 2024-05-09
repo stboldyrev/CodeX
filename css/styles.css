@@ -803,4 +803,5 @@ main {
   background-color: rgb(255, 255, 255);
   color: rgb(47, 47, 47);
   transition: 0.4s ease;
+  outline: 1px solid rgb(47, 47, 47);
 }/*# sourceMappingURL=styles.css.map */
