@@ -1,0 +1,45 @@
+.collections {
+  h2 {
+    font-size: 63px;
+    line-height: 64px;
+    color: $dark;
+    text-align: center;
+    margin-bottom: 73px;
+  }
+  .collections-items {
+    margin-bottom: 64px;
+    .collections-item {
+      padding-bottom: 37px;
+      img {
+        padding-bottom: 30px;
+      }
+      h6 {
+        a {
+          font-size: 26px;
+          line-height: 26px;
+          color: $dark;
+          padding-left: 50px;
+
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  .collections-btn {
+    text-align: center;
+    margin-bottom: 95px;
+    a {
+      font-size: 14px;
+      line-height: 16px;
+      color: $soft;
+      background-color: $dark;
+      text-decoration: none;
+      padding: 13px 31px;
+      &:hover {
+        background-color: $soft;
+        color: $dark;
+        transition: 0.4s ease;
+      }
+    }
+  }
+}
