@@ -651,6 +651,7 @@ header .header-left:first-of-type {
 .join-us .join-us-description a:hover {
   background-color: rgb(255, 255, 255);
   color: rgb(47, 47, 47);
+  outline: 1px solid rgb(47, 47, 47);
   transition: 0.4s ease;
 }
 .join-us .join-us-image {
@@ -687,7 +688,11 @@ header .header-left:first-of-type {
   line-height: 26px;
   color: rgb(47, 47, 47);
   padding-left: 50px;
-  text-decoration: none;
+}
+.collections .collections-items .collections-item h6 a:hover {
+  color: rgb(100, 100, 100);
+  transition: 0.4s ease;
+  transform: scale(1.1);
 }
 
 .top-nft {
@@ -873,6 +878,7 @@ footer .footer-1 .stay-in-the-loop .stay-loop-form button {
 }
 footer .footer-1 .stay-in-the-loop .stay-loop-form button:hover {
   background-color: rgb(27, 27, 27);
+  transition: 0.3s ease;
 }
 footer .footer-2 {
   margin-bottom: 30px;

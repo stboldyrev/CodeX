@@ -20,8 +20,11 @@
           line-height: 26px;
           color: $dark;
           padding-left: 50px;
-
-          text-decoration: none;
+          &:hover {
+            color: rgb(100, 100, 100);
+            transition: 0.4s ease;
+            transform: scale(1.1);
+          }
         }
       }
     }

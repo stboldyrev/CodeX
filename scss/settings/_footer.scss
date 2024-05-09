@@ -89,6 +89,7 @@ footer {
           background: $dark;
           &:hover {
             background-color: rgb(27, 27, 27);
+            transition: 0.3s ease;
           }
         }
       }
